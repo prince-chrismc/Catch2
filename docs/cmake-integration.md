@@ -8,6 +8,7 @@
 [`CATCH_CONFIG_*` customization options in CMake](#catch_config_-customization-options-in-cmake)<br>
 [Installing Catch2 from git repository](#installing-catch2-from-git-repository)<br>
 [Installing Catch2 from vcpkg](#installing-catch2-from-vcpkg)<br>
+[Installing Catch2 from Conan](#installing-catch2-from-conan)<br>
 
 Because we use CMake to build Catch2, we also provide a couple of
 integration points for our users.
