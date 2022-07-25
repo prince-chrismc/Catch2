@@ -397,6 +397,21 @@ cd vcpkg
 The catch2 port in vcpkg is kept up to date by microsoft team members and community contributors.
 If the version is out of date, please [create an issue or pull request](https://github.com/Microsoft/vcpkg) on the vcpkg repository.
 
+## Installing Catch2 from Conan
+
+You can download and install Catch2 using [Conan, the C++ package Manager](https://conan.io/):
+
+```sh
+pip3 install conan --upgrade
+conan install catch2/3.1.0@ # See https://conan.io/center/catch2?tab=useit for more options!
+```
+
+There are precompiled binaries for many platforms as well as the option to build from source for your platform.
+[More install options for Conan](https://docs.conan.io/en/latest/installation.html) are available for your convience.
+Conan also [supports many build systems](https://conan.io/center/catch2?tab=useit).
+
+The Catch2 recipe in [ConanCenter](https://conan.io/center/) are maintained by the Conan team and a dedicated community. If the version is out of date, please [create an issue](https://github.com/conan-io/conan-center-index/issues/new?title=catchw:) on the ConanCenter repository.
+
 ---
 
 [Home](Readme.md#top)
