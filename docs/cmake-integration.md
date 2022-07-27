@@ -407,11 +407,13 @@ pip3 install conan --upgrade
 conan install catch2/3.1.0@ # See https://conan.io/center/catch2?tab=useit for more options!
 ```
 
+You can follow the CMake intregation [documented above](#cmake-targets).
+
 There are precompiled binaries for many platforms as well as the option to build from source for your platform.
 [More install options for Conan](https://docs.conan.io/en/latest/installation.html) are available for your convience.
 Conan also [supports many build systems](https://conan.io/center/catch2?tab=useit).
 
-The Catch2 recipe in [ConanCenter](https://conan.io/center/) are maintained by the Conan team and a dedicated community. If the version is out of date, please [create an issue](https://github.com/conan-io/conan-center-index/issues/new?title=catchw:) on the ConanCenter repository.
+The Catch2 recipe in [ConanCenter](https://conan.io/center/catch2) is maintained by the Conan team and a dedicated community. If the version is out of date, please [create an issue](https://github.com/conan-io/conan-center-index/issues/new?title=catch2:) on the ConanCenter repository.
 
 ---
 
